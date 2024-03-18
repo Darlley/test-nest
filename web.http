@@ -1,0 +1,26 @@
+@endpoint = "http://localhost:3000/users"
+
+POST http://localhost:3000/users/new HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Naruto",
+  "email": "naruto@mail.com"
+}
+
+# {
+#   "name": "Goku",
+#   "email": "goku@mail.com"
+# }
+# {
+#   "name": "Naruto",
+#   "email": "naruto@mail.com"
+# }
+# {
+#   "name": "Saitama",
+#   "email": "saitama@mail.com"
+# }
+# {
+#   "name": "Tanjiro",
+#   "email": "tanjiro@mail.com"
+# }
